@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+echo "# my-page" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ECEmanav/my-page.git
+git push -u origin main
+<html>
+    <head>
+            <title>my page</title>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li class="mobile"><a href="location.html">Locations</a></li>
+                <li class="mobile"><a href="contac.html">Contact</a></li>
+                <li class="logo"><a href="index.html">Logo</a></li>
+                <li class="desktop"><a href="location.html">Locations</a></li>
+                <li class="desktop"><a href="contac.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+        </header>
+        <section class="features">
+            <figure id="first"><img src="images/1.jpg" alt="potrait1">
+                <figurecaption>potrait1</figurecaption>
+            </figure>
+            <figure><img src="images/2.jpg" alt="potrait1">
+                <figurecaption>potrait2</figurecaption>
+            </figure>
+            <figure><img src="images/3.jpg" alt="potrait1">
+                <figurecaption>potrait3</figurecaption>
+            </figure>
+        </section>
+      
+        <footer>Fot submitting your pics Contact us</footer>
+
+    </body>
+</html>
