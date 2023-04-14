@@ -10,7 +10,7 @@ body {
   
   header {
     background-color: black;
-    background-image: url("images/light.jpg");
+    background-image: url("light.jpg");
     background-size: 100%;
     background-position: center;
     height: 400px;
@@ -30,7 +30,7 @@ body {
   }
   
   header .logo a {
-    background-image: url("images/logo.png");
+    background-image: url("logo.png");
     background-size: 300px;
     background-repeat: no-repeat;
     display: inline-block;
